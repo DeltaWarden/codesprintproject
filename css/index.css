@@ -208,7 +208,7 @@
   height: 100%;
 }
 
-.wrapper .rescellblock.wk-desk-6.wk-ipadp-6.wk-tab-12.wk-mobile-12.left {
+.wrapper .rescellblock {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -253,11 +253,11 @@
     margin-left: 0px;
   }
 
-  .wrapper .rescellblock.wk-desk-6.wk-ipadp-6.wk-tab-12.wk-mobile-12 {
+  .wrapper .rescellblock {
     display: none;
   }
 
-  .wrapper .rescellblock.wk-desk-6.wk-ipadp-6.wk-tab-12.wk-mobile-12.left
+  .wrapper .rescellblock
 {
     align-items: center;
   }
