@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".//css/myprojects.css">
+    <link rel="stylesheet" href=".//css/colors.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Главная</title>
+</head>
+<body>
+  <div class="menu-bar">
+    <a href="#" class="logo">
+      <i class='bx bxs-graduation'></i>
+        <div class="logo-name">Мои  Проекты</div>
+    </a>
+    <ul class="menu-info">
+        <li id="myprojects" class="active"><a href="#"><i class='bx bxs-copy-alt' ></i></i>Мои проекты</a></li>
+        <li onclick="chatsf()" id="chats"><a href="#"><i class='bx bxs-chat' ></i></i>Чаты</a></li>
+        <li onclick="mailf()" id="mail"><a href="#"><i class='bx bxs-envelope' ></i></i>Почта</a></li>
+        <li onclick="supportf()" id="support"><a href="#"><i class='bx bx-message-square-dots'></i>Поддержка</a></li>
+    </ul>
+    <div class="darkmode">
+      <button id="toggle" class="themebutton">
+        <i class='bx bxs-moon' ></i>
+      </button>
+    </div>
+</div>
+<div class="navbar">
+  <nav>
+      <a href="#" class="notif">
+        <i class='bx bxs-bell' ></i>
+          <span class="count">0</span>
+      </a>
+      <a href="#" class="lk">
+          <img src=".//img/logo.png">
+      </a>
+  </nav>
+  <script src=".//js/myprojects.js"></script>
+</body>
+</html>
